@@ -1,0 +1,152 @@
+*{
+    margin: 5px;
+    box-sizing: content-box;
+    color: azure;
+}
+body{
+background-color:black;
+}
+.profile-img{
+    width: 25%;
+    float: right;
+}
+.profile-img img{
+    width: 80%;
+    height: 80%;
+    /*border-image-slice: initial;*/
+}
+.about{
+    margin-left: 10px;
+}
+.profile-info h1{
+    padding-top: 20px;
+    margin-left: 20px;margin-right: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.profile-info h2{
+    font-style: italic;
+    padding-top: 40px;
+    padding-bottom: 30px;margin-left: 20px;margin-right: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.profile-info h5{
+    margin-left: 20px;margin-right: 20px;
+    padding-bottom: 30px;font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.profile-info{
+    padding: 0 20px;height: 150px;
+    float: left;
+    /*width: 60%;*/
+}
+
+.profile-references{
+    float: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.profile-references img{height: 25px;}
+.profile-skills1 img{
+    height: 40px;
+    width:40px;
+}
+.profile-skills2 img{
+    height: 40px;
+    width:40px;
+}
+.profile-skills3 img{
+    height: 40px;
+    width:40px;
+}
+.profile-info small{
+    padding-top: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.profile-skills1{
+    display: inline-block;
+    width: 22.5%;
+    padding: 30px 5px;
+    margin: 2%;
+    text-align: center;
+    box-shadow: 0 0 15px 1px whitesmoke;
+}
+.profile-skills2{
+    display: inline-block;
+    width: 22.5%;
+    padding: 30px 5px;
+    margin: 2%;
+    text-align: center;
+    box-shadow: 0 0 15px 1px whitesmoke;
+}
+.profile-skills3{
+    display: inline-block;
+    width: 22.5%;
+    padding: 30px 5px;
+    margin: 2%;
+    text-align: center;
+    box-shadow: 0 0 15px 1px whitesmoke;
+}
+.profile-educationX{
+    display: inline-block;
+    width: 19%;
+    padding: 30px 5px;
+    margin: 2%;
+    text-align: center;
+    box-shadow: 0 0 15px 1px whitesmoke;
+}
+.profile-educationXII{
+    display: inline-block;
+    width: 19%;
+    padding: 30px 5px;
+    margin: 2%;
+    text-align: center;
+    box-shadow: 0 0 15px 1px whitesmoke;
+}
+.profile-educationBT{
+    display: inline-block;
+    width: 18%;
+    padding: 30px 5px;
+    margin: 2%;
+    margin-top: 1%;
+    text-align: center;
+    box-shadow: 0 0 15px 1px whitesmoke;
+}
+
+
+@media only screen and (max-width:900px){
+    .profile-info{
+        width:100;
+        overflow: inherit;
+    }
+    .profile-img{
+        width: 25%;
+    }
+    .profile-educationX{
+        margin-left: 20px;
+        width:80%;
+    }
+    .profile-educationXII{
+        margin-left: 20px;
+        width: 80%;
+    }
+    .profile-educationBT{
+        margin-left: 20px;
+        width:80%;
+    }
+    .profile-skills1{
+        margin-left: 20px;
+        width: 80%;
+    }
+    .profile-skills2{
+        margin-left: 20px;
+        width: 80%;
+    }
+    .profile-skills3{
+        margin-left: 20px;
+        width: 80%;
+    }
+    .profile-references{
+        font-size: small;
+    }.profile-designer{
+        float: center;
+        padding: 20px;
+    }
+}
